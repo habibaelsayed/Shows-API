@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* 
+
+body{
+    height: 100vh;
+    background-color: #3F4E4F;
+}
+
+.card{
+    background-color: #2F5D62;
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+    
+
+}
+
+body{
+    background-color: #2F5D62;
+}
+#movies, 
+#people,
+#tvshow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(400px, 1fr));
+    padding: 20px;
+    grid-gap: 40px;
+} */
+/* .card{
+    background-color: #5E8B7E;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+    width: 16rem;
+    height:min-content;
+    float: right;
+    margin: 10px;
+} */
+
+/* .card>img{
+    border-radius: 10px;
+    padding-top: 10px;
+    width: 95%;
+}
+
+.card:hover{
+    background-color: #A7C4BC;
+}
+
+.navbar{
+    background-color: #DFEEEA;
+    padding: 0%;
+}
+
+.container-fluid:hover{
+    background-color: #3F4E4F;
+}
+.navbar-brand{
+    width: 400px;
+} */
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    align-items: center;
+    background-color: #0D7377;
+}
+
+li, a{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #439A97;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #222222;
+    margin-bottom: 20px;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: rgb(160, 232, 232);
+}
+.container{
+    background-color: #212121;
+    border-radius: 20px;
+    font-family:"Montserrat", sans-serif;
+    width: 350px;
+    height: fit-content;
+}
+.pic{
+    position: relative;
+    /* clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%); */
+}
+img{
+    width: 350px;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+.pic:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+}
+
+.intro{
+    padding: 10px 10px;
+}
+.intro>h5{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+    align-content: center;
+}
+.intro>p{
+    color: #a0a0a0;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+}
+
+.container:hover{
+    background-color: #323232;
+}
